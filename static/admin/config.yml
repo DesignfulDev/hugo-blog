@@ -1,6 +1,11 @@
+# TODO: set up custom domain then add zone_id to wrangler.toml
+site_url: https://designful.dev/
+search: false
 backend:
-  name: git-gateway
+  name: github
   branch: main # Branch to update (optional; defaults to master)
+  repo: DesignfulDev/hugo-blog
+  base_url: https://proxy.designful.dev
 media_folder: static/img
 public_folder: /img
 collections:
