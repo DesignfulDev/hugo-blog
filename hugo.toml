@@ -1,4 +1,4 @@
-baseURL = 'https://hugo-blog-4wk.pages.dev'
+baseURL = 'https://designful.dev'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-blog-awesome'
